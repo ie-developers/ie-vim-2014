@@ -142,6 +142,16 @@ endif
     * ちなみに command line mode で実行しまくるのと変わりません
     * help を読みましょう
 
+# tips : basic settings
+* これはやっておかないとどうしようも無い設定
+* vi 互換モードオフ + ファイルによって色を付ける
+
+```
+set nocompatible
+filetype plugin indent on
+syntax enable
+```
+
 # tips : shell command
 * :! shell-command
 * でシェルコマンドも実行できます
